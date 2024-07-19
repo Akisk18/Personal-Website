@@ -1,0 +1,278 @@
+*{
+    scroll-behavior: smooth;
+}
+
+html body{
+    
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+span{
+    color: #964734;
+}
+
+.head{
+    font-size: 2em;
+    background-color: #def2f1;
+    text-align: center;
+    margin: 0;
+    padding-top: 2.5em;
+    
+}
+
+
+/*first container */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    background-color: #3AAFA9;
+}
+
+.container h1{
+   
+    margin:0;
+    color: #fEFFFF;
+}
+/* end of first container */
+/* button of container*/
+.button1 {
+    display: inline-block;
+    width: 8em;
+   height: 2em; 
+   border-color:#964734;
+   cursor: pointer;
+   background-color: #964734;
+   color:#fEFFFF;
+   font-size: 0.6em;
+   margin:1em;
+   margin-right: 33em;
+   border-radius: 9999px;
+   border-style: solid;
+   position: relative;
+   transition: background-color 0.3s ease;
+   
+}
+
+.button1:hover{
+   
+    opacity:0.9;
+}
+/* end of button */
+/* start of container 2*/
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #def2f1;
+    color: #17252a;
+}
+.container2 h3{
+   margin-left: 10em;
+   margin-right: 10em;
+}
+
+.header3{
+    padding-top: 5em;
+}
+
+
+.profile{
+    
+    padding:1em;
+    border-radius: 50%;
+}
+
+/* end of container 2*/
+/* start of container 3*/
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2%;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.25em;
+    text-align: center;
+    background-color: #def2f1;
+    
+    
+
+}
+
+
+.card-header{
+    width:20em;
+    height: 100%;
+    border: solid #2b7a78;
+    border-radius: 2%;
+    background-color: #2b7a78;
+    color: #def2f1;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10em;
+}
+
+.card-header:hover{
+    background-color:#964734;
+
+}
+/* end of container 3*/
+
+/* start of container 4*/
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #def2f1;
+    color: #17252a;
+
+}
+
+
+input[type=text]{
+    width: 50em;
+    height: 2em;
+    
+}
+input[type=email]{
+    width: 50em;
+    height: 2em; 
+}
+
+textarea{
+    width: 50em;
+    height: 20em;
+   
+}
+
+
+.button2 {
+    display: inline-block;
+    width: 4em;
+    border-radius: 9999px;
+   height: 1.5em; 
+   border: #964734;
+   cursor: pointer;
+   background-color: #964734;
+   color:#def2f1;
+   font-size: 2em;
+   margin:1em;
+   border-style: solid;
+   position: relative;
+   
+ 
+   
+}
+
+.button2:hover{
+   opacity: 0.9;
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 3.5em;
+    background-color: #17252a;
+    position: fixed;
+    box-shadow: 0 0.15em #3AAFA9;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;  
+    
+     
+ }
+
+ li{
+    font-size: large;
+    display: inline;
+    list-style: none;
+    margin: 10em;
+    color:#def2f1;
+    
+    transition: color 0.3s ease;
+    
+  
+}
+
+li:hover{
+
+  
+    
+    color:#964734;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#contact{
+   
+    margin-top:4.5em;
+    
+} 
+
+.fa {
+  
+    padding: 1.5em;
+    margin-left: 1em;
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-github{
+    background: #3AAFA9;
+    color: #def2f1;
+  }
+  .fa-facebook {
+    background: #3AAFA9;
+    color: #def2f1;
+  }
+  
+  .fa-instagram {
+    background: #3AAFA9;
+    color: #def2f1;
+  }
+.footer1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #024950;
+    color: #def2f1;
+ 
+    
+}
+
