@@ -13,9 +13,7 @@
 <script src="app.js" defer></script>
 </head>
 <body>
-
   <nav class="navbar">
-    
     <ul>
     <a href="#homepage"><li>Home</li></a>
     <a href="#About"><li>About</li></a>
@@ -23,43 +21,37 @@
     <a href="#footer"><li>Contact</li></a>
     </ul>
   </nav>    
-
- <section id="homepage">
+ <section class="home"id="homepage">
  <div class="container">
-  
-   <h1>I'm <span>Akis</span> , an electrical engineer who likes to <span>code!</span></12> 
+   <h1>I'm <span class="animation-first hidden">Akis</span> , an electrical engineer who likes to <span class="animation-scnd hidden">code!</span></12> 
    <a href="#About"><button class="button1" type="button">Explore</button></a>
   </div> 
  </section>
  
- 
   <section id="About">
-    
-    
     <div class="container2">
     
         <div>
           <div>
-         <h1 class="head"><span>ABOUT</span></h2>   
-        <img class=profile src="./images/profile.jpg" height="200">
-        <h2 class>Hello.</h2>
-        <h3>I am Akis and I recently graduated from an Electrical Engineering school at Technological Institute of Crete in Greece.
+         <h1 class="head page-title hidden"><span>ABOUT</span></h2>   
+        <img class="profile hidden" src="./images/profile.jpg" height="200">
+        <h2 class="header2 hidden">Hello.</h2>
+        <h3 class="hidden">I am Akis and I recently graduated from an Electrical Engineering school at Technological Institute of Crete in Greece.
         During my studies I fell in love with programming and I would like to pursue this field as a career.
         I did various coding projects during my studies and now I am trying to learn.
         Below , you can see the programming languages that I have worked with so far:
        </h3>
       </div>
 
-
        <div>
         <div>
-        <h2 class="header3">Coding Knowledge:</h2>
-        <img  src="./images/c-language-seeklogo.svg" alt="c logo" height="100">
-        <img  src="./images/c-seeklogo.svg" alt="cpp logo" height="100">
-        <img  src="./images/css3-seeklogo.svg" alt="css logo" height="100">
-        <img  src="./images/html5-with-wordmark-color-seeklogo.svg" alt="html logo" height="100">
-        <img  src="./images/matlab-seeklogo.svg" alt="matlab logo" height="100">
-        <img src="./images/java-seeklogo.svg" alt="java logo" height="100">
+        <h2 class="header3 hidden">Coding Knowledge:</h2>
+        <img class="logo hidden" src="./images/c-language-seeklogo.svg" alt="c logo" height="100">
+        <img class="logo hidden" src="./images/c-seeklogo.svg" alt="cpp logo" height="100">
+        <img class="logo hidden" src="./images/css3-seeklogo.svg" alt="css logo" height="100">
+        <img class="logo hidden" src="./images/html5-with-wordmark-color-seeklogo.svg" alt="html logo" height="100">
+        <img class="logo hidden" src="./images/matlab-seeklogo.svg" alt="matlab logo" height="100">
+        <img class="logo hidden" src="./images/java-seeklogo.svg" alt="java logo" height="100">
       </div>
         </div>
     </div>
@@ -67,10 +59,9 @@
  </section>
 
 <section id="Projects">
-  <h2 class="head project"><span>PROJECTS</span></h2>
+  <h1 class="head page-title hidden"><span>PROJECTS</span></h1>
   <div class="container3">
-    
-   <a href="https://github.com/Akisk18/personal"> <div class="card-header">
+   <a href="https://github.com/Akisk18/personal"> <div class="card-header card1 hidden">
       <h2 class="card-title">Personal Website</h2>
       <img src="./images/WEB.png" height="200px">
         
@@ -84,7 +75,7 @@
   </div>
   </a>
 
-  <a href="https://github.com/Akisk18/Dog-Photo-Generator"> <div class="card-header">
+  <a href="https://github.com/Akisk18/Dog-Photo-Generator"> <div class="card-header card2 hidden">
     <h2 class="card-title">Dog Photo Generator</h2>
     <img src="./images/WEB2.png" height="200px">
       
@@ -97,23 +88,16 @@
   </div>
 </div>
 </a>
-
-
-  
-
-
 </div>
-
-
   </div>
 </section>
 
 <section>
 <div class="container4">
-  <h2 id="contact" class="head"><span>CONTACT</span></h2>
-  <p>Have a question?  Contact me!</p>
+  <h2 id="contact" class="head page-title hidden"><span>CONTACT</span></h2>
+  <p class="qa hidden">Have a question?  Contact me!</p>
 
-  <form action="https://formspree.io/f/xwpepgak" method="POST">
+  <form class="form hidden" action="https://formspree.io/f/xwpepgak" method="POST">
     <label>
       <input required type="text" name="name" placeholder="Name"><br>
     </label><br>
@@ -126,16 +110,12 @@
     </label><br>
     <button class= button2 type="submit">Send</button>
   </form>
- 
 </div>
 </section>
 
-  
-
 <section id="footer">
 <div class="footer1">
-  <footer>
-    
+  <footer class="hidden">
   <div class="social-media">
   <a href="https://www.facebook.com/akiskiagias/" class="fa fa-facebook"></a>
 <a href="https://www.instagram.com/akis_kiagias/" class="fa fa-instagram"></a>
@@ -145,11 +125,5 @@
 </div>
 </div>
 </section>
-
-
 </body>
-
-
-
-
 </html>
