@@ -10,6 +10,7 @@
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="app.js" defer></script>
 </head>
 <body>
 
@@ -114,14 +115,14 @@
 
   <form action="https://formspree.io/f/xwpepgak" method="POST">
     <label>
-      <input type="text" name="name" placeholder="Name"><br>
+      <input required type="text" name="name" placeholder="Name"><br>
     </label><br>
     <label>
       <label>
-        <input type="email" name="email" placeholder="Email"><br>
+        <input required type="email" name="email" placeholder="Email"><br>
       </label><br>
       <label>
-      <textarea name="message" placeholder="Enter your message here:"></textarea><br>
+      <textarea required name="message" placeholder="Enter your message here:"></textarea><br>
     </label><br>
     <button class= button2 type="submit">Send</button>
   </form>

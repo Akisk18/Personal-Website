@@ -23,7 +23,9 @@ span{
     padding-top: 2.5em;
     
 }
-
+#homepage .navbar{
+    display: none;
+}
 
 /*first container */
 
@@ -272,7 +274,5 @@ a{
     height: 20vh;
     background-color: #024950;
     color: #def2f1;
- 
-    
 }
 
