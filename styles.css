@@ -54,11 +54,11 @@ span{
    border-radius: 9999px;
    border-style: solid;
    position: relative;
-   transition: background-color 0.3s ease;
+   transition: background-color 0.3s ease !important;
 }
 
 .button1:hover{
-    opacity:0.9;
+    opacity:0.9 !important;
 }
 /* end of button */
 /* start of container 2*/
@@ -165,7 +165,7 @@ textarea{
 }
 
 .button2:hover{
-   opacity: 0.9;
+   opacity: 0.9 !important;
 }
 
 .navbar{
@@ -242,6 +242,9 @@ a{
 .animation-scnd.show{
     animation:fadeIn 1s ease-in-out forwards 1s;
 }
+.button1.show{
+    animation: slideDown 1s ease-in-out forwards 1.5s;
+}
 
 .profile.show{
     animation:fadeIn 1s ease-in-out forwards 1s;
@@ -280,7 +283,10 @@ h3.show{
 .form.show{
     animation: fadeIn 1s ease-in-out forwards 2s;
 }
-footer.hidden{
+.button2.show{
+    animation: slideDown 1s ease-in-out forwards 2.5s;
+}
+footer.show{
     animation:slideDown 1s ease-in-out forwards 3s;
 }
 
@@ -346,3 +352,4 @@ footer.hidden{
         transition: none;
     }
 }
+
