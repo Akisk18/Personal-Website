@@ -14,6 +14,14 @@ span{
     color: #964734;
 }
 
+.gradient {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(-45deg,#964734 ,#3AAFA9 ,#3AAFA9 );
+	background-size: 150% 150%;
+	animation: gradient-animation 6s ease infinite;
+}
+
 .head{
     font-size: 2em;
     background-color: #def2f1;
@@ -167,6 +175,7 @@ textarea{
 
 .button2:hover{
    opacity: 0.9 !important;
+   
 }
 
 .navbar{
@@ -337,6 +346,18 @@ footer.show{
     }
 }
 
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .show {
     opacity: 1;
 }
@@ -353,4 +374,3 @@ footer.show{
         transition: none;
     }
 }
-
