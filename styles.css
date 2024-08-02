@@ -8,6 +8,7 @@ html body{
     margin: 0;
     height: 100%;
     box-sizing: border-box;
+    background-color:#def2f1
 }
 span{
     color: #964734;
@@ -277,7 +278,7 @@ h3.show{
     animation:slideDown 1s ease-in-out forwards 1.7s;
 }
 .qa.show{
-    animation: fadeIn 1s ease-in-out forwards 1s;
+    animation: slideIn 1s ease-in-out forwards 1s;
 }
 
 .form.show{
